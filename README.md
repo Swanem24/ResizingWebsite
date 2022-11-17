@@ -6,4 +6,18 @@ My goal is to create a website that resizes the website depending on the user. I
 
 What I learned:
 - Em (em is a measuring unit for fonts)
-- Rem (rem is root em. it checks for the root element in the tag instead of his parents tag.)
+- Rem (rem is root em. it checks for the root element in the tag instead of his parents tag)
+- min-width/max-width (limits how wide an element becomes even after resizing)
+
+An example of creating a scaling image or video
+.container {
+  width: 50%; <-- half the size of the browser
+  height: 200px;  
+  overflow: hidden; <-- to hide any items coming outside of the container
+}
+ 
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
