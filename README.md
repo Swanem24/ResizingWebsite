@@ -8,6 +8,7 @@ What I learned:
 - Em (em is a measuring unit for fonts)
 - Rem (rem is root em. it checks for the root element in the tag instead of his parents tag)
 - min-width/max-width (limits how wide an element becomes even after resizing)
+- A background image of an HTML element will scale proportionally when its background-size property is set to cover
 
 An example of creating a scaling image or video
 .container {
