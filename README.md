@@ -1,4 +1,4 @@
-# ResponsiveWebsiteDesign
+# ResizingWebsite
 
 This is a repository created for learning how to make a responsive website. 
 
